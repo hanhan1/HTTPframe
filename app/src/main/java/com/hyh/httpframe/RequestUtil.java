@@ -8,4 +8,8 @@ package com.hyh.httpframe;
  * 作用：
  */
 public class RequestUtil {
+    public enum RequestMethod{
+        GET,POST,DELETE,PUT
+    }
+    public RequestMethod method;
 }
